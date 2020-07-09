@@ -59,8 +59,8 @@ playBtn.addEventListener("click", () => (isPlaying ? pauseSong() : playSong()));
 const loadSong = song => {
   title.textContent = song.displayName;
   artist.textContent = song.artist;
-  music.src = `../music/${song.name}.mp3`;
-  image.src = `../img/${song.name}.jpg`;
+  music.src = `/music/${song.name}.mp3`;
+  image.src = `/img/${song.name}.jpg`;
 };
 
 // Current Song
